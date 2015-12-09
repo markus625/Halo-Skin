@@ -131,7 +131,7 @@
 		</widget>
 	</screen>
 	<screen name="GraphicalInfoBarEPG" flags="wfNoBorder" position="fill" backgroundColor="transparent">
-		<panel name="Halo_Info_NavigationBar2"/>
+		<panel name="Halo_Info_NavigationBar_InfoBarGraph"/>
 		<eLabel position="0,680" size="1920,400" backgroundColor="#292D31" zPosition="-1"/>
 		<widget name="bouquetlist" position="0,725" size="1276,352" font="Roboto-Light;40" itemHeight="84" selectionPixmap="settings/1740x84_On.png" backgroundPixmap="settings/1740x84_Off.png" foregroundColor="settings_lists_font_foregroundcolor" foregroundColorSelected="settings_lists_font_foregroundcolor_selected" backgroundColor="menubackground" scrollbarMode="showNever" transparent="1" zPosition="6"/>
 		<widget name="timeline_text" position="0,580" size="1920,100" TimelineFont="RobotoCondensed-Light;40" itemHeight="100" foregroundColor="#DDDDDD" backgroundColor="#737D7D7D" valign="center" transparent="0" zPosition="3"/>
@@ -167,10 +167,13 @@
 		<eLabel position="0,725" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="0,226" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="31,819" size="1222,2" backgroundColor="Halo_infobardivider" zPosition="2"/>
+			<!-- # BBUK  search by number mod  -->
+		<widget name="searchnumber" position="40,1000" size="400,80" zPosition="5" font="Roboto-Regular;40" foregroundColor="Now_Next_Text1" backgroundColor="Now_Next_Color1"  transparent="0"  valign="center" halign="left" />
+		<!-- END-->
 		<widget name="bouquetlist" position="0,725" size="1276,352" font="Roboto-Light;40" itemHeight="84" selectionPixmap="settings/1740x84_On.png" backgroundPixmap="settings/1740x84_Off.png" foregroundColor="settings_lists_font_foregroundcolor" foregroundColorSelected="settings_lists_font_foregroundcolor_selected" backgroundColor="menubackground" scrollbarMode="showNever" transparent="1" zPosition="6"/>
 		<!--Halo_Info_NavigationBar2 background mask
 		<eLabel position="250,680" size="1670,45" backgroundColor="#545454" zPosition="14"/>  -->
-		<panel name="Halo_Info_NavigationBar2"/>
+		<panel name="Halo_Info_NavigationBar_EpgGraph"/>
 		<widget source="Event" render="Label" position="149,750" size="1095,48" font="RobotoCondensed-Regular;42" foregroundColor="Halo_1stcolor" backgroundColor="menubackground" halign="left" valign="center" transparent="1" noWrap="1" zPosition="2">
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -213,10 +216,13 @@
 		<eLabel position="0,725" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="0,226" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="31,819" size="1222,2" backgroundColor="Halo_infobardivider" zPosition="2"/>
+		<!-- # BBUK  search by number mod  -->
+		<widget name="searchnumber" position="40,1000" size="400,80" zPosition="5" font="Roboto-Regular;40" foregroundColor="Now_Next_Text1" backgroundColor="Now_Next_Color1"  transparent="0"  valign="center" halign="left" />
+		<!-- END-->
 		<widget name="bouquetlist" position="0,725" size="1276,352" font="Roboto-Light;40" itemHeight="84" selectionPixmap="settings/1740x84_On.png" backgroundPixmap="settings/1740x84_Off.png" foregroundColor="settings_lists_font_foregroundcolor" foregroundColorSelected="settings_lists_font_foregroundcolor_selected" backgroundColor="menubackground" scrollbarMode="showNever" transparent="1" zPosition="6"/>
 		<!--Halo_Info_NavigationBar2 background mask
 		<eLabel position="250,680" size="1670,45" backgroundColor="#545454" zPosition="14"/>  -->
-		<panel name="Halo_Info_NavigationBar2"/>
+		<panel name="Halo_Info_NavigationBar_EpgGraph"/>
 		<widget source="Event" render="Label" position="149,750" size="1095,48" font="RobotoCondensed-Regular;42" foregroundColor="Halo_1stcolor" backgroundColor="menubackground" halign="left" valign="center" transparent="1" noWrap="1" zPosition="2">
 			<convert type="EventName">Name</convert>
 		</widget>
