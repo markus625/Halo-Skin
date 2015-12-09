@@ -160,15 +160,15 @@
 			<convert type="ClockToText">Format:%M</convert>
 		</widget>
 	</screen>
-	
-
 	<screen name="GraphicalEPG" position="fill" flags="wfNoBorder" backgroundColor="transparent" zPosition="1">
 		<eLabel position="0,211" size="1920,870" backgroundColor="Halo_Epg_background" zPosition="-1"/>
 		<eLabel position="0,725" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="0,226" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="31,819" size="1222,2" backgroundColor="Halo_infobardivider" zPosition="2"/>
-			<!-- # BBUK  search by number mod  -->
-		<widget name="searchnumber" position="40,1000" size="400,80" zPosition="5" font="Roboto-Regular;40" foregroundColor="Now_Next_Text1" backgroundColor="Now_Next_Color1"  transparent="0"  valign="center" halign="left" />
+		<!-- # BBUK  search by number mod   -->
+	
+		<widget name="searchnumber" position="0,972" size="1920,108" zPosition="5" textOffset="45,0" font="menulist;42" foregroundColor="#E66A4A" backgroundColor="#2C2C2C" transparent="0" valign="center" halign="center"/>
+			
 		<!-- END-->
 		<widget name="bouquetlist" position="0,725" size="1276,352" font="Roboto-Light;40" itemHeight="84" selectionPixmap="settings/1740x84_On.png" backgroundPixmap="settings/1740x84_Off.png" foregroundColor="settings_lists_font_foregroundcolor" foregroundColorSelected="settings_lists_font_foregroundcolor_selected" backgroundColor="menubackground" scrollbarMode="showNever" transparent="1" zPosition="6"/>
 		<!--Halo_Info_NavigationBar2 background mask
@@ -210,15 +210,14 @@
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget> -->
 	</screen>
-
 	<screen name="GraphicalEPGPIG" position="fill" flags="wfNoBorder" backgroundColor="transparent" zPosition="1">
 		<eLabel position="0,211" size="1920,870" backgroundColor="Halo_Epg_background" zPosition="-1"/>
 		<eLabel position="0,725" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="0,226" size="1913,352" backgroundColor="Halo_Epg_foreground" zPosition="1"/>
 		<eLabel position="31,819" size="1222,2" backgroundColor="Halo_infobardivider" zPosition="2"/>
 		<!-- # BBUK  search by number mod  -->
-		<widget name="searchnumber" position="40,1000" size="400,80" zPosition="5" font="Roboto-Regular;40" foregroundColor="Now_Next_Text1" backgroundColor="Now_Next_Color1"  transparent="0"  valign="center" halign="left" />
-		<!-- END-->
+				<widget name="searchnumber" position="0,972" size="1920,108" zPosition="5" textOffset="45,0" font="menulist;42" foregroundColor="#E66A4A" backgroundColor="#2C2C2C" transparent="0" valign="center" halign="center"/>
+	<!-- END-->
 		<widget name="bouquetlist" position="0,725" size="1276,352" font="Roboto-Light;40" itemHeight="84" selectionPixmap="settings/1740x84_On.png" backgroundPixmap="settings/1740x84_Off.png" foregroundColor="settings_lists_font_foregroundcolor" foregroundColorSelected="settings_lists_font_foregroundcolor_selected" backgroundColor="menubackground" scrollbarMode="showNever" transparent="1" zPosition="6"/>
 		<!--Halo_Info_NavigationBar2 background mask
 		<eLabel position="250,680" size="1670,45" backgroundColor="#545454" zPosition="14"/>  -->
