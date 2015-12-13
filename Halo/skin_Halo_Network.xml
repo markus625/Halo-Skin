@@ -325,5 +325,16 @@
 		</widget>
 		<panel name="background6_3_Buttons_Source"/>
 	</screen>
+	
+		<screen name="NameserverSetup" position="fill" flags="wfNoBorder" backgroundColor="transparent">
+			<!--<eLabel text="NameserverSetup" position="center,center" size="200,20" font="Regular;20" foregroundColor="black" backgroundColor="white" halign="center" valign="center" transparent="0" zPosition="99"/>-->
+		<eLabel position="268,540" size="1372,412" backgroundColor="settings_panel_background" zPosition="-1"/>
+		<eLabel position="268,480" size="1372,60" backgroundColor="settings_panel_titlebar" zPosition="-1"/>
+			<panel name="background6_2_Buttons_Source"/>
+
+		<widget name="config" position="268,540" size="1372,120" font="Roboto-Light;42" oregroundColor="settings_lists_font_foregroundcolor" foregroundColorSelected="settings_lists_font_foregroundcolor_selected"  backgroundColor="menubackground" selectionPixmap="settings/List_On_1740x120.png" backgroundPixmap="settings/List_Off_1740x120.png" itemHeight="120"  transparent="1" halign="left" valign="center"  scrollbarMode="showOnDemand"/>
+
+		<widget source="introduction" render="Label" position="268,700" size="1372,60" zPosition="10" font="Regular;42" halign="center" valign="center" backgroundColor="#25062748" transparent="1"/>
+	</screen>
 
 </skin>
